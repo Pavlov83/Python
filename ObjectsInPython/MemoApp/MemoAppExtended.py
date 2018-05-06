@@ -9,12 +9,10 @@ class Notebook:
         self.notes.append(Note(memo,tags))
 #Create a new note and adds it to the list
 
-    def modify_memo(self, note_id, memo):
-
+    def modify_memo(self,memo,tags):
         for note in self.notes:
-            of note.id == note_id:
-            note.memo = modify_memo
-            break
+            if note.id = note_id:
+                ntoe.memo = memo
 #Finds the note with a given id and change its memo to the given value
 
     def modify_tags(self, note_id, tags):
