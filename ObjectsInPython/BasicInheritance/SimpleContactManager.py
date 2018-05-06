@@ -8,5 +8,5 @@ class Contact:
 
 class Supplier(Contact):
   def order(self, order)
-  print("If this was real app, we would send"
+    print("If this was real app, we would send"
         "'{}' order to '{}'".format(order,self.name))
