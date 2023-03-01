@@ -2,12 +2,10 @@
 
 Pi = 3.141592653589793
 print('Please enter and r value')
-r = input()
-r = int(r)
-print('Please enter an h value')
-h = input()
-h= int(h)
+r = int(input())
 
+print('Please enter an h value')
+h = int(input())
 
 result = (Pi*(r*r)*h)/3
 
