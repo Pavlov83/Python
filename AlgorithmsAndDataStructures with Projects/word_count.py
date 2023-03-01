@@ -1,4 +1,4 @@
-text = "my new text is great and amazing"
+text = input()
 
-word_amount = text.count(' ') + 1
-print(word_amount)
+word_count = text.count(' ') + 1
+print(word_count)
