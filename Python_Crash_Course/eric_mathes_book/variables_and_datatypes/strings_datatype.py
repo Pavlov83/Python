@@ -8,3 +8,13 @@ print(name.lower())
 
 #We can uppercase letters
 print(name.upper())
+
+#Using variables in strings
+
+first_name = "walter"
+last_name = "white"
+
+full_name = f"{first_name}{last_name}"
+print(full_name)
+
+print(f"{full_name.title()}!")
