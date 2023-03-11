@@ -1,4 +1,4 @@
-mylist =  [ "First", "Second", "Third","Fourth","Fifth"]
+mylist =  [ "first", "second", "third","fourth","fifth"]
 
 mylist.insert(5,"Sixth")
 
@@ -14,3 +14,10 @@ print(mylist)
 
 mylist.pop()
 
+#accessing items in a list
+
+print(mylist[0])
+
+#We can capitalize the value
+
+print(mylist[0].title())
